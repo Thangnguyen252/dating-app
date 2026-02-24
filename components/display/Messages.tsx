@@ -132,7 +132,7 @@ export default function Messages({
       {/* Chat Box Overlay */}
       {activeChatUser && (
         <div 
-          className={`absolute inset-x-0 bottom-0 bg-[#f9fafb] z-10 flex flex-col rounded-t-3xl shadow-[0_-10px_40px_-5px_rgba(0,0,0,0.15)] overflow-hidden transition-all duration-300 ease-in-out ${isMinimized ? 'h-[64px]' : 'h-[500px]'}`}
+          className="absolute inset-x-0 bottom-0 bg-[#f9fafb] z-10 flex flex-col rounded-t-3xl shadow-[0_-10px_40px_-5px_rgba(0,0,0,0.15)] overflow-hidden transition-all duration-300 ease-in-out" style={{ height: isMinimized ? '64px' : 'min(500px, calc(100vh - 80px))' }}
         >
           {/* Header */}
           <div className="bg-[#fcc824] px-4 py-3 flex items-center justify-between shadow-sm cursor-pointer shrink-0" onClick={() => isMinimized && setIsMinimized(false)}>
