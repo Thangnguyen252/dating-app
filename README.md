@@ -186,16 +186,16 @@ Ngoài ra cũng nên phát triển thêm nhiều tính năng hơn cho người d
 
 ### Distance Filtering
 
-Tích hợp Google Maps API để hiển thị và lọc người dùng trong bán kính cụ thể (ví dụ: chỉ tìm người trong phạm vi 5km).
+Tích hợp Google Maps API để hiển thị và lọc người dùng trong bán kính cụ thể (ví dụ: chỉ tìm người trong phạm vi 5km). Dành cho các users không muốn yêu xa.
 
 ### Video Intro
 
-Cho phép người dùng upload một đoạn video ngắn 5-10 giây.
+Cho phép người dùng upload một đoạn video ngắn 5-10 giây. Sẽ dễ match hơn và đáng tin hơn so với ảnh
 
 ### Ẩn danh
 
-Cho phép người dùng chặn một số tài khoản và hạn chế xuất hiện trên một số tài khoản nhất định.
+Cho phép người dùng chặn một số tài khoản và hạn chế xuất hiện trên một số tài khoản nhất định. Một số tài khoản có dấu hiệu lừa đảo hoặc scam có thể chặn, hoặc đơn giản là người dùng không muốn tài khoản đó xuất hiện trên feed
 
 ### Comment
 
-Người dùng có thể comment trên bức ảnh của profile mà họ vừa lướt (chưa cần match).
+Người dùng có thể comment trên bức ảnh của profile mà họ vừa lướt (chưa cần match). 
