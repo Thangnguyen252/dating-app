@@ -112,7 +112,7 @@ export default function MatchesSidebar({ activeChatUser, setActiveChatUser }: Ma
   });
 
   return (
-    <aside className="fixed inset-y-0 right-0 z-40 w-80 translate-x-full lg:static lg:translate-x-0 flex flex-col bg-stone-50 border-l border-stone-200 px-4 pt-2 overflow-y-auto transition-transform duration-300">
+    <aside className="fixed inset-y-0 right-0 z-40 w-80 translate-x-full lg:static lg:translate-x-0 flex flex-col bg-stone-50 border-l border-stone-200 px-4 pt-2 transition-transform duration-300">
       <Matches 
         pendingLikesCount={pendingLikesCount} 
         matchedUsers={matchedUsers} 
